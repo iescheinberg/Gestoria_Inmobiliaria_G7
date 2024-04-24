@@ -1,0 +1,2 @@
+Ezequiel:
+Implementar un modo oscuro para la app.
