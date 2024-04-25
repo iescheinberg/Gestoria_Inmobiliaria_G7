@@ -61,28 +61,39 @@
                 </div>
 
             </div>
+
             <div class="col formulario">
-                <form action="">
+                <form id="formulario" action="">
                     <h3>Comuníquese con nosotros</h3>
+
                     <div>
                         <label for="nombre">Nombre</label>
-                        <input type="text" placeholder="Ingrese su nombre" name="nombre" required>
+                        <input id="nombre" type="text" placeholder="Ingrese su nombre" name="nombre">
+                        <small></small>
                     </div>
+
                     <div>
                         <label for="email">Dirección de Correo</label>
-                        <input type="email" placeholder="Dirección de Correo" name="email" required>
+                        <input id="email" type="email" placeholder="Dirección de Correo" name="email">
+                        <small></small>
                     </div>
+
                     <div>
-                        <label for="telefono">Teléfono</label>
-                        <input type="text" placeholder="Ingrese su teléfono" name="telefono">
+                        <label for="tel">Teléfono</label>
+                        <input id="tel" type="text" placeholder="Ingrese su teléfono" name="telefono">
+                        <small></small>
                     </div>
+
                     <div>
                         <label for="mensaje">Consulta</label>
-                        <textarea type="text" placeholder="Escriba su consulta" name="mensaje" required></textarea>
+                        <textarea id="mensaje" type="text" placeholder="Escriba su consulta" name="mensaje"></textarea>
+                        <small></small>
                     </div>
+
                     <input type="submit" value="Enviar Mensaje" name="enviar">
                 </form>
             </div>
+
             <div class="col">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3476.9558109071627!2d-66.34241857118006!3d-33.28432508428671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1645188876080!5m2!1ses-419!2sar"
@@ -96,6 +107,8 @@
     <!--<footer class="inferior2">
         Inmobiliaria Web - Desarrollado por GRUPO 7 CODO A CODO <br>
     </footer>-->
+
+    <script src="js/form.js"></script>
 </body>
 
 </html>

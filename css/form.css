@@ -1,0 +1,31 @@
+
+.form-control,
+input:focus {
+    outline: none;
+}
+
+.form-control.error input,
+.form-control.error textarea{
+    border: 1px solid #EC7063;
+}
+
+.form-control.ok input,
+.form-control.ok textarea {
+    border: 1px solid #2ECC71;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    text-align: right;
+}
+
+.form-control.error small {
+    visibility: visible;
+    color: #EC7063;
+}
+
+.form-control.ok small {
+    visibility: hidden;
+    color: #2ECC71;
+}

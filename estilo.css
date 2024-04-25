@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Prompt:wght@300;400;600;700&display=swap');
-
+@import url('css/form.css');
 * {
     margin: 0;
     padding: 0;
@@ -37,7 +37,7 @@ body {
 
 .contenedor-header {
     background: linear-gradient(to right, #901c16, #e73b32);
-     border-bottom: 2px solid #424242; 
+    border-bottom: 2px solid #424242; 
 }
 
 .contenedor-header .logo,
@@ -129,7 +129,7 @@ body {
 /* H O M E */
 
 .home {
-    background: url(img/fondo.jpg);
+    background: url(assets/img/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
