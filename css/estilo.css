@@ -130,7 +130,7 @@ body {
 /* H O M E */
 
 .home {
-    background: url(/img/fondo.jpg);
+    background: url(img/fondo.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
