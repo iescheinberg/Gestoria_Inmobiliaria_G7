@@ -37,7 +37,7 @@ body {
 
 .contenedor-header {
     background: linear-gradient(to right, #901c16, #e73b32);
-     border-bottom: 2px solid #424242; 
+    border-bottom: 2px solid #424242;
 }
 
 .contenedor-header .logo,
@@ -418,7 +418,7 @@ footer.inferior2 {
 }
 
 /* SOBRE NOSOTROS */
-nav{
+nav {
     text-align: center;
     padding: 10px 30px;
 }
@@ -435,20 +435,22 @@ nav{
     margin: 0 10px;
     font-weight: bold;
 }
+
 .nav-link:hover {
     background-color: #000;
 }
 
-@media (max-width:700px){
-    header{
+@media (max-width:700px) {
+    header {
         flex-direction: column;
     }
-    nav{
+
+    nav {
         padding: 10px 0px;
     }
 }
 
-header{
+header {
     display: flex;
     min-height: 70px;
     background-color: #e53935;
@@ -456,68 +458,70 @@ header{
     align-items: center;
 }
 
-.logo img{
+.logo img {
     height: 50px;
     margin-right: 10px;
 }
 
-.section2{
-    background-image: url('/img/fondoNos2.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+.section2 {
+    background-image: url('../img/fondoNos2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
 
-.section2-title{
+.section2-title {
     font-family: 'roboto', sans-serif;
     font-size: 40px;
     color: #fbfbfb;
     font-weight: bold;
     margin: 25px 0;
 }
-h3{
+
+h3 {
     background-color: #000;
     border-radius: 3%;
     position: absolute;
     top: 7%;
     left: 10%;
-    z-index: 1;  
+    z-index: 1;
 }
 
-.us{
+.us {
     display: flex;
 }
 
-.us-texto{
+.us-texto {
     width: 60%;
     padding: 0 10% 0 0;
     color: white
 }
 
-.us-parrafo{
+.us-parrafo {
     font-family: 'roboto', sans-serif;
     font-size: 18px;
     text-align: left;
 }
 
-h4{
+h4 {
     background-color: #000;
 }
-.texto{
-    margin-right: 20px;  
-    
+
+.texto {
+    margin-right: 20px;
+
 }
 
-.us-img{
+.us-img {
     margin-bottom: 10%;
     margin-left: 10%;
-    margin-top: 1%;   
+    margin-top: 1%;
     width: 40%;
     object-fit: cover;
     width: 50%;
