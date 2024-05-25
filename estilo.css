@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Prompt:wght@300;400;600;700&display=swap');
-@import url('css/form.css');
+@import url('./css/form.css');
 * {
     margin: 0;
     padding: 0;
@@ -283,7 +283,7 @@ body {
 
 footer {
     width: 100%;
-    background-color: #131313;
+    background: linear-gradient(to left, #901c16, #e73b32);
     color: #aaa;
     text-align: center;
     font-size: 12px;
@@ -298,6 +298,25 @@ footer.inferior {
 footer.inferior2 {
     position: absolute;
     bottom: 0;
+}
+.contenedor-footer {
+    display: flex;
+    justify-content: center;
+}
+.contenedor-footer a {
+    color: #fff;
+    margin: 1.5em 0.5em;
+    padding: 10px;
+}
+.inferior p {
+    color: #fff;
+    margin: 0.5em;
+    font-size: medium;
+}
+.inferior span {
+    font-style: italic;
+    font-size: small;
+    color: #ffffff60;
 }
 
 

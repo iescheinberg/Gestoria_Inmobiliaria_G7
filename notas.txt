@@ -1,2 +1,6 @@
 Ezequiel:
 Implementar un modo oscuro para la app.
+
+Validator W3C
+El link del cdn de fontasewone lo toma como error.
+Usar 100% de width en iframe de la pa'g. contacto lo toma como error (si no se pone 100% en responsive se rompe).
