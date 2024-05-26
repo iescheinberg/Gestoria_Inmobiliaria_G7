@@ -29,3 +29,17 @@ input:focus {
     visibility: hidden;
     color: #2ECC71;
 }
+
+/* Boton enviar formulario */
+input[type="submit"] {
+    border: 1px solid #901c16;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #901c16;
+    border: 2px solid #eceff1;
+    color: #eceff1;
+    font-weight: bold;
+    cursor: pointer;
+}
