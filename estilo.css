@@ -381,7 +381,9 @@ footer.inferior2 {
     .contenedor-header .navbar {
         display: none;
     }
-
+    .info-contacto {
+        display: none;
+    }
     .contenedor-header .nav-responsive {
         display: block;
         font-size: 25px;
